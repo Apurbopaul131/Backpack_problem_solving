@@ -10,5 +10,6 @@ const checkLeapYear = (year) => {
     console.log(`${year} is not leap year.`);
   }
 };
-checkLeapYear(2020);
-checkLeapYear(2023);
+checkLeapYear(1900);
+checkLeapYear(2000);
+checkLeapYear(2024);

@@ -9,6 +9,6 @@ const cars = [
 
 const sortCarsByManufacturingYear = (cars) => {
   cars.sort((a, b) => a.year - b.year);
-  console.log(cars);
+  return cars;
 };
-sortCarsByManufacturingYear(cars);
+console.log(sortCarsByManufacturingYear(cars));
